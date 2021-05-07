@@ -43,13 +43,13 @@ h6 {
 
 .inputbox {
   margin: 30px 0px;
-  background-color: inherit;
+  background-color: #1e1e1e;
   color: white;
   border: none;
   outline: none;
   padding: 5px;
   width: 100%;
-  border-bottom: 2px solid grey;
+  border-bottom: 3px solid grey;
 }
 
 @media only screen and (max-width: 768px) {

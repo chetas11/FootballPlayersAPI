@@ -33,7 +33,6 @@ function Home() {
         }}
         placeholder="Search your favourite player"
         value={search}
-        autofocus
       />
       <div className="row">
         {Playerdata.filter((item) => {
@@ -57,7 +56,7 @@ function Home() {
                     alt="Player-img"
                   />
                   <div class="card-text">
-                    <p>Skill: {player.SkillDesc}</p>
+                    <p>Position: {player.SkillDesc}</p>
                     <p>Value: ${player.Value}</p>
                     <p>
                       Upcoming Matches:{" "}
