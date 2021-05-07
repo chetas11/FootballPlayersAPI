@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Axios from "axios";
 
-function Card() {
+function Home() {
   const [Playerdata, setPlayerData] = useState([]);
   const [search, setSearch] = useState("");
   const URL = "https://api.npoint.io/20c1afef1661881ddc9c";
@@ -68,10 +68,11 @@ function Card() {
                     </p>
                     <h6>
                       Next Match:{" "}
-                      {
-                        player.UpComingMatchesList[0].MDate ? new Date(`${player.UpComingMatchesList[0].MDate} UTC`)
-                          .toString()  : "N/A"
-                      }
+                      {player.UpComingMatchesList[0].MDate
+                        ? new Date(
+                            `${player.UpComingMatchesList[0].MDate} UTC`
+                          ).toString()
+                        : "N/A"}
                     </h6>
                   </div>
                 </div>
@@ -84,4 +85,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default Home;
