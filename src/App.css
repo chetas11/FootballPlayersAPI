@@ -31,7 +31,7 @@ h6 {
   font-size: 1.5rem;
 }
 
-.card-body{
+.card-body {
   padding: 25px;
 }
 
@@ -49,4 +49,10 @@ h6 {
   padding: 5px;
   width: 100%;
   border-bottom: 2px solid grey;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    height: auto;
+  }
 }
