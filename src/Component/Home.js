@@ -31,8 +31,9 @@ function Home() {
         onChange={(e) => {
           setSearch(e.target.value);
         }}
-        placeholder="Search Players"
+        placeholder="Search your favourite player"
         value={search}
+        autofocus
       />
       <div className="row">
         {Playerdata.filter((item) => {
