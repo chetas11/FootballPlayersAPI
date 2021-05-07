@@ -58,6 +58,7 @@ function Home() {
                   <div class="card-text">
                     <p>Position: {player.SkillDesc}</p>
                     <p>Value: ${player.Value}</p>
+                    <p>Team: {player.TName}</p>
                     <p>
                       Upcoming Matches:{" "}
                       {player.UpComingMatchesList[0].CCode

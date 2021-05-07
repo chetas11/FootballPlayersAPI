@@ -9,6 +9,7 @@ body {
 p {
   margin: 0px;
   padding: 0px;
+  font-size: 0.95rem;
 }
 
 h6 {
@@ -23,7 +24,7 @@ h6 {
   cursor: pointer;
   border-radius: 10px;
   background-color: #fefefe;
-  height: 541.533px;
+  height: 543.533px;
 }
 
 .card-header {
